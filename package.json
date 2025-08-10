@@ -1,21 +1,5 @@
 {
-  "name": "ai-prompt-builder",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "vite preview"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.0.0",
-    "i18next": "^22.4.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^12.3.1",
-    "stripe": "^12.15.0"
-  },
-  "devDependencies": {
-    "vite": "^4.4.9"
-  }
+  "name": "my-app",
+  "private": true,
+  "workspaces": ["frontend", "backend"]
 }
